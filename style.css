@@ -1,0 +1,45 @@
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    display: flex;
+    gap: 20px; 
+}
+.logo{
+    margin-left: 50px;
+}
+.user i {
+    font-size: 30px; 
+    margin-top: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.image{
+    margin-left: -20px;
+}
+.content_1{
+
+    margin-top: 250px;
+}   
+.buy_now{
+    display: flex;
+}
+.button{
+    justify-content: center;
+    margin-left: 40px;
+    width: 80%;
+    height: 40px;
+    background-color: blue;
+    border-radius: 20px;
+}
